@@ -11,6 +11,7 @@ _app
 
 # RubyGems
 *.gem
+Gemfile.lock
 
 # NPM dependencies
 node_modules
