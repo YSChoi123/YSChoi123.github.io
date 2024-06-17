@@ -1,5 +1,6 @@
 /* The common styles */
-
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gamja+Flower&family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&display=swap');
 html {
   @media (prefers-color-scheme: light) {
     &:not([data-mode]),
@@ -728,7 +729,7 @@ $btn-mb: 0.5rem;
   }
 
   .site-title {
-    font-family: inherit;
+    font-family: $font-family-base;
     font-weight: 900;
     font-size: 1.75rem;
     line-height: 1.2;
@@ -1181,7 +1182,7 @@ search {
   }
 
   .toast-body {
-    font-family: Lato, sans-serif;
+    font-family: $font-family-base, "Gamja Flower", sans-serif;
     line-height: 1.25rem;
 
     button {
