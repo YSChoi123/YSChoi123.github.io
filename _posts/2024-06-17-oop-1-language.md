@@ -1,6 +1,5 @@
 ---
 title: 1. 객체 지향 언어
-author: yunseo
 categories: [Java, OOP]
 tags: [java, OOP, 자바의정석]
 ---
